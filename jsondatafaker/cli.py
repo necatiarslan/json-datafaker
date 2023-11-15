@@ -1,5 +1,5 @@
 import argparse
-from . import jsonfaker
+from . import jsondatafaker
 
 def main():
     parser = argparse.ArgumentParser(description=get_description())
@@ -24,7 +24,7 @@ def main():
 
 
     if isinstance(config_file_path, str):
-        jsonfaker.to_target("json", config_file_path, target_file_path)
+        jsondatafaker.to_target("json", config_file_path, target_file_path)
     else:
         print("Wrong paramater(s)")
         print(get_description())

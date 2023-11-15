@@ -9,7 +9,7 @@ def log(message):
         if func.function != "log":
             caller_function = func.function
 
-    print(f"[jsonfaker][{caller_function}] - {message}")
+    print(f"[jsondatafaker][{caller_function}] - {message}")
 
 def get_temp_filename(file_name=None):
     if file_name == None:

@@ -7,7 +7,7 @@ set positional-arguments
 
 run:
     pyenv activate json-faker
-    ~/.pyenv/versions/3.11.6/envs/json-faker/bin/python ~/GitHub/json-faker/tests/test_jsonfaker.py
+    ~/.pyenv/versions/3.11.6/envs/json-faker/bin/python ~/GitHub/json-faker/tests/test_jsondatafaker.py
 
 pip-install:
     pipenv lock --dev
@@ -69,7 +69,7 @@ pyenv-current-virtualenv:
     pyenv version
 
 test:
-    pipenv run pytest --junit-xml=junit_xml_test_report.xml --cov-branch --cov=jsonfaker tests
+    pipenv run pytest --junit-xml=junit_xml_test_report.xml --cov-branch --cov=jsondatafaker tests
     pipenv run coverage xml -i
 
 build:
@@ -81,13 +81,13 @@ publish:
 # Set your password to the token value, including the pypi- prefix
 
 flake8:
-	python -m flake8 jsonfaker
+	python -m flake8 jsondatafaker
 
-pip-install-jsonfaker:
-    pip install ~/GitHub/json-faker/dist/jsonfaker-1.0.0-py3-none-any.whl --force-reinstall
+pip-install-jsondatafaker:
+    pip install ~/GitHub/json-datafaker/dist/1.0.0/jsondatafaker-1.0.0-py3-none-any.whl --force-reinstall
 
 clean-files:
     find tests/exports -type f -name "*.*" -exec rm {} \;
 
 test-cli:
-    jsonfaker --config ~/GitHub/json-faker/tests/test_cli.yaml --target ~/GitHub/json-faker/tests/exports
+    jsondatafaker --config ~/GitHub/json-datafaker/tests/test_cli.yaml --target ~/GitHub/json-datafaker/tests/exports
