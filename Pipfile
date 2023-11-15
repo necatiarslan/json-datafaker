@@ -1,0 +1,10 @@
+[requires]
+python_version = "3.10"
+
+[packages]
+faker = "*"
+pyyaml = "*"
+
+[dev-packages]
+faker_education = "*"
+twine = "*"
