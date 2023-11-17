@@ -38,7 +38,7 @@ json:
     - fake.first_name()
   spouse: null
 ```
-[full yml example](tests/test_json.yaml)
+[full yml example](https://github.com/necatiarslan/json-datafaker/blob/main/tests/test_jsondatafaker.py)
 
 ### Sample Code
 ```python
