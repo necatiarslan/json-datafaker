@@ -24,7 +24,7 @@ def main():
 
 
     if isinstance(config_file_path, str):
-        jsondatafaker.to_target("json", config_file_path, target_file_path)
+        jsondatafaker.to_json(config_file_path, target_file_path)
     else:
         print("Wrong paramater(s)")
         print(get_description())

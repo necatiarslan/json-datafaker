@@ -7,6 +7,8 @@ json:
   is_alive: fake.pybool()
   age: fake.random_int(18, 90)
   dob: fake.date_of_birth()
+  level: get_level() # custom function
+  school: fake.school_name() #customer faker provider
   address:
     street_address: fake.street_address()
     city: fake.city()

@@ -1,0 +1,29 @@
+{
+    "first_name": "Andrea",
+    "last_name": "Jefferson",
+    "is_alive": false,
+    "age": 39,
+    "dob": "2015-07-19",
+    "address": {
+        "street_address": "79155 Brenda Vista Suite 264",
+        "city": "East Joseph",
+        "state": "VA",
+        "postal_code": "39264"
+    },
+    "phone_numbers": [
+        {
+            "type": "home",
+            "number": "955.744.1608"
+        },
+        {
+            "type": "office",
+            "number": "+1-718-723-4257x6515"
+        }
+    ],
+    "children": [
+        "Rachel",
+        "Shelley",
+        "Jordan"
+    ],
+    "spouse": null
+}

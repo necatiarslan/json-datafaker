@@ -76,7 +76,7 @@ build:
     python setup.py sdist bdist_wheel
 
 publish:
-	twine upload dist/1.0.0/*
+	twine upload dist/1.0.1/*
 # Set your username to __token__
 # Set your password to the token value, including the pypi- prefix
 
@@ -84,7 +84,7 @@ flake8:
 	python -m flake8 jsondatafaker
 
 pip-install-jsondatafaker:
-    pip install ~/GitHub/json-datafaker/dist/1.0.0/jsondatafaker-1.0.0-py3-none-any.whl --force-reinstall
+    pip install ~/GitHub/json-datafaker/dist/1.0.1/jsondatafaker-1.0.1-py3-none-any.whl --force-reinstall
 
 clean-files:
     find tests/exports -type f -name "*.*" -exec rm {} \;

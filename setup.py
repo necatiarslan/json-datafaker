@@ -5,8 +5,8 @@ with open("README.md") as file:
 
 setup(
     name='jsondatafaker',
-    version='1.0.0',
-    description='A Python package to generate fake JSON',
+    version='1.0.1',
+    description='Generate and Save Fake JSON defining the schema with Yaml',
     long_description = description,
     long_description_content_type = "text/markdown",
     author='Necati Arslan',
