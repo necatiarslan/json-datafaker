@@ -1,4 +1,4 @@
-# json Faker
+# Json Data Faker
 jsondatafaker is a versatile Python package that empowers you to effortlessly create realistic but synthetic json data for a wide range of applications. If you need to generate test data for software development, this tool simplifies the process with an intuitive schema definition in YAML format.
 
 ### Key Features
